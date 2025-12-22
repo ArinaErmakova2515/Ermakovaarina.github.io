@@ -4,33 +4,94 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="greet.css">
+  <link rel="stylesheet" href="style.css">
   <script src="greet.js"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Главная страница</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="page1.html">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="page2.html">Price</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="page3.html">О себе</a>
-          </li>
-        </ul>
+  <div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Главная страница</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="page1.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="page2.html">Price</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page3.html">О себе</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div style="display: flex; justify-content: center;">
+    <div class="card" style="width: 18rem; margin: 20px;">
+      <img src="./photo/price1.jpg" class="card-img-top" style="size: 20px;">
+      <div class="card-body">
+        <h5 class="card-title">Портрет - 4000 руб.</h5>
+        <p class="card-text">Бронь места и запись осуществляется только по предоплате (20%); </br>
+          Остальная сумма оплачивается по факту, непосредственно после съемки;</br>
+          Перенос даты съемки возможен не позднее чем за 2 дня до съемки</br>
+          Вы получаете:</br>
+          1 час съемки;</br>
+          Консультация в подготовке к съемке:</br>
+          Подбор мест для фотосессии;</br>
+          Авторская обработка фотографий;</br>
+          Художественная ретушь — 30 шт;</br>
+          Срок изготовления — 5 дней;</br>
+          Студия оплачивается отдельно.</br>
+          Исходники предоставляются для выбора фотографий, который пойдут в обработку</p>
+        <a href="#" class="btn btn-primary">Написать</a>
       </div>
     </div>
-  </nav>
+
+    <div class="card" style="width: 18rem; margin: 20px;">
+      <img src="./photo/price3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Прогулочная - 5000 руб.</h5>
+        <p class="card-text">Бронь места и запись осуществляется только по предоплате (20%);</br>
+          Остальная сумма оплачивается по факту, непосредственно после съемки;</br>
+          Перенос даты съемки возможен не позднее чем за 5 дня до съемки</br>
+          Вы получаете:</br>
+          1,5 час съемки;</br>
+          Консультация в подготовке к съемке:</br>
+          Подбор мест для фотосессии;</br>
+          Авторская обработка фотографий;</br>
+          Художественная ретушь — 30 шт;</br>
+          Срок изготовления — 5 дней;</br>
+          Исходники предоставляются для выбора фотографий, который пойдут в обработку</p>
+        <a href="#" class="btn btn-primary">Написать</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; margin: 20px;">
+      <img src="./photo/price2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Репортаж - 5500 руб.</h5>
+        <p class="card-text">Бронь места и запись осуществляется только по предоплате (20%);</br>
+          Остальная сумма оплачивается по факту, непосредственно после съемки;</br>
+          Перенос даты съемки возможен не позднее чем за 5 дня до съемки</br>
+          Вы получаете:</br>
+          1 час съемки;</br>
+          Консультация в подготовке к съемке:</br>
+          Авторская обработка фотографий — 30-45 шт. За каждые следующие 15 фото — 1500р к прайсу;</br>
+          Легкая ретушь при необходимости;</br>
+          Срок изготовления — 7 дней.</p>
+        <a href="#" class="btn btn-primary">Написать</a>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>

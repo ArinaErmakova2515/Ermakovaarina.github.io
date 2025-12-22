@@ -1,1 +1,27 @@
-.card-image {max-height: 750px;}
+body {
+    background-color: #f2f2f2
+}
+
+.navbar {
+    background-color: rgba(192, 192, 192, 0.308) !important
+}
+
+.card-body {
+    background-color: rgba(192, 192, 192, 0.308)
+}
+
+.card-image {
+    max-height: 750px;
+}
+
+.slider {
+    max-height: 900px;
+}
+
+.nav-link {
+    font-weight: 800;
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
